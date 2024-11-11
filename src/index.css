@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul .bat{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+.for{
+    width: 150px;
+}
+.wat,.cam{
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    background-color: #184D47;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 46px 16px 46px;
+    position: fixed;
+    width: 94%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav input{
+    width: 300px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+.grid {
+    width: 100%;
+    padding: 16px 46px 16px 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.grid h1{
+    font-size: 60px;
+    padding-top: 10px;
+}
+.lun{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.cam{
+    background-image: url(https://htmldemo.net/mixy/mixy/assets/images/hero/slider1_mixy1.webp);
+    width: 100%;
+    background-position: right;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+}
+.grid h2{
+    color: red;
+    padding-top: 20px;
+    font-size: 40px;
+}
+button{
+    padding: 14px 40px 14px 40px;
+    margin-top: 20px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 17px;
+}
+.han{
+    background-image: url(https://htmldemo.net/mixy/mixy/assets/images/banners/img1_banner1_mixy1.webp);
+    width: 90%;
+    border-radius: 10px;
+}
+.par{
+    background-image: url(https://htmldemo.net/mixy/mixy/assets/images/banners/img1_banner1_mixy2.webp);
+    width: 84%;
+    border-radius: 10px;
+}
+.wam{
+    width: 96%;
+}
+.gad{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+  .playstore-button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+  }
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+  .text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+    .text-2 {
+    font-weight: 600;
+  }
+@media (max-width:763px) {
+    .cam{
+        margin-top: 0px;
+        background-position: center !important;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 6px 16px 16px 16px;
+        gap: 50px !important;
+    }
+    .grid h1{
+        font-size: 45px;
+    }
+    .teb{
+        display: none;
+    }
+    nav,.gen,.cal{
+        padding: 16px 16px 16px 16px !important;
+    }
+    .get{
+        padding-top: 60px !important;
+    }
+    .cat{
+        grid-template-columns: 1fr !important;
+    }
+    .cae{
+        flex-direction: column;
+    }
+    .fam{
+        width: 300px !important;
+        margin-top: 40px !important;
+    }
+    .ota{
+        margin-top: 40px !important;
+    }
+}
